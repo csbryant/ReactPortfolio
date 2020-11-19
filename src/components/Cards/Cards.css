@@ -1,0 +1,145 @@
+.cs-grid-item img:hover {
+  transform: scale(1.1);
+}
+
+.img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.navbar-brand {
+  color: #a2385c !important;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.nav-item {
+  font-family: "Work Sans", sans-serif;
+  color: #783a4f !important;
+}
+
+.nav-item:hover {
+  color: #391723 !important;
+}
+
+.active {
+  color: #391723 !important;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #391723;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-heading {
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out,
+  border-color 0.25s ease-in-out;
+  color: #4a4b65;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.nav-heading:hover {
+  color: #a2385c;
+  text-decoration: none !important;
+}
+
+.nav-heading.active {
+  color: #a2385c;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none !important;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #f8f9fa;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.085);
+  border-radius: 1rem;
+  margin-top: 26px !important;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.5rem;
+}
+
+.card-img-top {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
+}
+
+.card-columns .card {
+  margin-bottom: 0.875rem;
+}
+
+.text-muted {
+  color: #9e9fb4 !important;
+  font-weight: 200;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.border-0 {
+  border: 0 !important;
+}
+
+.box-shadow {
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+/* Media */
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1260px;
+  }
+}

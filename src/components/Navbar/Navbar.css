@@ -1,0 +1,22 @@
+.navbar-brand {
+    color: #a2385c !important;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .nav-item {
+    font-family: 'Work Sans', sans-serif;
+    color: #783a4f !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  .nav-item:hover {
+    color: #391723 !important;
+  }
+  
+  .active {
+    color: #391723 !important;
+  }

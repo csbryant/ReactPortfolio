@@ -1,0 +1,96 @@
+.profilepic {
+    height: 300px;
+    width: auto;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    float: left;
+  }
+  
+  .biotext {
+    text-align: left;
+  }
+  
+  .importantcolor {
+    color: #a2385c;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+      color: #212529;
+      background-color: #a2385c !important;
+      border-color: #a2385c !important;
+  }
+  
+  .btn-primary:hover {
+      color: #212529;
+      background-color: #872d4b !important;
+      border-color: #872d4b !important;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary.focus {
+      box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5);
+  }
+  
+  .btn-primary.disabled,
+  .btn-primary:disabled {
+      color: #212529;
+      background-color: #a2385c !important;
+      border-color: #a2385c !important;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .show>.btn-primary.dropdown-toggle {
+      color: #212529;
+      background-color: #a2385c !important;
+      border-color: #a2385c !important;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show>.btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5);
+  }
+  
+  .btn-outline-primary {
+      color: #872d4b !important;
+      background-color: transparent;
+      background-image: none;
+      border-color: #872d4b !important;
+  }
+  
+  .btn-outline-primary:hover {
+      color: #222;
+      background-color: #872d4b !important;
+      border-color: #872d4b !important;
+  }
+  
+  .btn-outline-primary:focus,
+  .btn-outline-primary.focus {
+      box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5);
+  }
+  
+  .btn-outline-primary.disabled,
+  .btn-outline-primary:disabled {
+      color: #872d4b !important;
+      background-color: transparent;
+  }
+  
+  .btn-outline-primary:not(:disabled):not(.disabled):active,
+  .btn-outline-primary:not(:disabled):not(.disabled).active,
+  .show>.btn-outline-primary.dropdown-toggle {
+      color: #212529;
+      background-color:#872d4b !important;
+      border-color: #872d4b !important;
+  }
+  
+  .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+  .show>.btn-outline-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5);
+  }

@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
+import Container from "../../components/Container";
+import Form from "../../components/Form";
+import Connect from "../../components/Connect";
 
 function Contact() {
     return (
-        <h1>Contact!</h1>
+        <div className="contact">
+            <Container>
+                <h1>Contact</h1>
+                <br></br>
+                <Form />
+                <br></br>
+                <Connect />
+            </Container>
+        </div>
     )
 }
 

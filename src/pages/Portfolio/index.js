@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
+import "./Portfolio.css";
+import Cards from "../../components/Cards";
 
 function Portfolio() {
     return (
-        <h1>Portfolio!</h1>
+        <div className="portfolio">
+           <Cards />
+           <br></br>
+           <br></br>
+        </div>
     )
 }
 
