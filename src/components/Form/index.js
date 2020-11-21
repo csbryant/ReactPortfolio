@@ -37,7 +37,7 @@ function Form() {
           ></textarea>
         </div>
         </div>
-        <button class="btn btn-primary text" type="submit">Submit form</button>
+        <button class="btn btn-primary" type="submit">Submit form</button>
       </form>
       </div>
     );
