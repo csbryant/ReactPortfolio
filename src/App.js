@@ -11,6 +11,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/" component={Bio} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio" component={Bio} />
+        <Route exact path="/ReactPortfolio" component={Bio} />
         <Route exact path="/" component={Bio} />
         <Route exact path="/bio" component={Bio} />
         <Route exact path="/contact" component={Contact} />
