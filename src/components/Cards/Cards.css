@@ -80,7 +80,6 @@ a {
   background-color: #f8f9fa;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.085);
-  border-radius: 1rem;
   margin-top: 26px !important;
 }
 
@@ -95,11 +94,6 @@ a {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
-}
-
-.card-img-top {
-  border-top-left-radius: calc(1rem - 1px);
-  border-top-right-radius: calc(1rem - 1px);
 }
 
 .card-columns .card {
