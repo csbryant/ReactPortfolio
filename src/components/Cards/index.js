@@ -7,6 +7,7 @@ import Burger from "../../Images/burger.jpg";
 import Team from "../../Images/team.jpg";
 import Schedule from "../../Images/Scheduleclip.png";
 import ReadMe from "../../Images/readmegenclip.png";
+import News from "../../Images/newscycle.png"
 
 
 function Cards() {
@@ -40,13 +41,13 @@ function Cards() {
         </div>
         <div className="col-md">
           <div className="cs-grid-item">
-            <a className="card border-0 box-shadow" href="https://github.com/csbryant/Scheduler">
+            <a className="card border-0 box-shadow" href="https://github.com/csbryant/NewsCycle">
               <div className="img-wrapper">
-                <img className="card-img-top" src={Schedule} alt="Scheduler" />
+                <img className="card-img-top" src={News} alt="NewsCycle" />
               </div>
               <CardItem
-                title="Scheduler"
-                text="Daily Scheduling App"
+                title="NewsCycle"
+                text="A React/MongoDB App"
               />
             </a></div>
         </div>
