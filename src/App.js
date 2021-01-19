@@ -13,6 +13,12 @@ function App() {
         <Navbars />
         <Route exact path="https://csbryant.github.io/ReactPortfolio/" component={Bio} />
         <Route exact path="https://csbryant.github.io/ReactPortfolio" component={Bio} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/contact" component={Contact} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/portfolio" component={Portfolio} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/Contact" component={Contact} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/Portfolio" component={Portfolio} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/Portfolio/" component={Portfolio} />
+        <Route exact path="https://csbryant.github.io/ReactPortfolio/Contact/" component={Contact} />
         <Route exact path="/ReactPortfolio" component={Bio} />
         <Route exact path="/" component={Bio} />
         <Route exact path="/bio" component={Bio} />
