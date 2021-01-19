@@ -13,9 +13,9 @@ function Navbars() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/Bio">About</Nav.Link>
-      <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
-      <Nav.Link href="/Contact">Contact</Nav.Link>
+      <Nav.Link href="/bio">About</Nav.Link>
+      <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+      <Nav.Link href="/contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
