@@ -5,7 +5,6 @@ import ArtistHop from "../../Images/artisthop.jpg";
 import Voter from "../../Images/voter.jpg";
 import Burger from "../../Images/burger.jpg";
 import Team from "../../Images/team.jpg";
-import Schedule from "../../Images/Scheduleclip.png";
 import ReadMe from "../../Images/readmegenclip.png";
 import News from "../../Images/newscycle.png"
 
@@ -17,14 +16,28 @@ function Cards() {
       <div className="row">
         <div className="col-md">
           <div className="cs-grid-item">
+            <a className="card border-0 box-shadow" href="https://github.com/csbryant/NewsCycle">
+              <div className="img-wrapper">
+                <img className="card-img-top" src={News} alt="NewsCycle" />
+              </div>
+              <CardItem
+                title="NewsCycle"
+                text="An app designed to give you the fastest and easiest way to learn today's top news stories created with React, SASS, Node, and MongoDB. [UN: Guest/ PW: Guest]"
+              />
+              <a className="link-muted" href="https://fathomless-scrubland-72060.herokuapp.com/">Deployed App</a> <br></br>
+            </a></div>
+        </div>
+        <div className="col-md">
+          <div className="cs-grid-item">
             <a className="card border-0 box-shadow" href="https://github.com/csbryant/ArtistHop">
               <div className="img-wrapper">
                 <img className="card-img-top" src={ArtistHop} alt="Artist Hop" />
               </div>
               <CardItem
                 title="Artist Hop"
-                text="Music Reference Site"
+                text="A web application that helps you discover new music based on your music tastes using JQueery, Foundation, HTML5, and CSS. [UN: Guest/ PW: Guest]"
               />
+              <a className="link-muted" href="https://csbryant.github.io/ArtistHop/">Deployed App</a> <br></br>
             </a></div>
         </div>
         <div className="col-md">
@@ -35,20 +48,9 @@ function Cards() {
               </div>
               <CardItem
                 title="Voter Cheat Sheet"
-                text="Voting Data App"
+                text="An app that displays the latest election information and tracks user voter data created with Node, MySQL, Express, and Bootstrap. [UN: Guest/ PW: Guest]"
               />
-            </a></div>
-        </div>
-        <div className="col-md">
-          <div className="cs-grid-item">
-            <a className="card border-0 box-shadow" href="https://github.com/csbryant/NewsCycle">
-              <div className="img-wrapper">
-                <img className="card-img-top" src={News} alt="NewsCycle" />
-              </div>
-              <CardItem
-                title="NewsCycle"
-                text="A React/MongoDB App"
-              />
+              <a className="link-muted" href="https://afternoon-peak-23794.herokuapp.com/">Deployed App</a> <br></br>
             </a></div>
         </div>
       </div>

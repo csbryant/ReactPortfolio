@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbars from "./components/Navbar";
 import Footer from "./components/Footer";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbars />
         <Route exact path="https://csbryant.github.io/ReactPortfolio/" component={Bio} />
         <Route exact path="https://csbryant.github.io/ReactPortfolio" component={Bio} />
         <Route exact path="/ReactPortfolio" component={Bio} />
