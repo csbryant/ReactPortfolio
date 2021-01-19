@@ -1,6 +1,6 @@
 ## React Portfolio
 
-<a href="https://csbryant.github.io/ReactPortfolio/">Link to Site</a>
+<a href="https://safe-coast-33367.herokuapp.com/">Link to Site</a>
 <br>
 <br>
 <img src="https://github.com/csbryant/ReactPortfolio/blob/main/public/Assets/Images/UpdatedScreenshot1.png?raw=true" />
