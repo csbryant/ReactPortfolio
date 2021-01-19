@@ -1,48 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import './Navbar.css';
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function Navbars() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Chris Bryant
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/Bio"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/Portfolio"
-              className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/Contact"
-              className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<Navbar bg="light" expand="lg">
+  <Navbar.Brand href="/">Chris Bryant</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="/Bio">About</Nav.Link>
+      <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+      <Nav.Link href="/Contact">Contact</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
   );
 }
 
-export default Navbar;
+export default Navbars;

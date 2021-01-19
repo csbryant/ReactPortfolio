@@ -105,6 +105,15 @@ a {
   font-weight: 200;
 }
 
+.link-muted {
+  color: #391723 !important;
+  font-weight: 300 !important;
+}
+
+.link-muted :hover {
+  color: #9e9fb4 !important;
+}
+
 .text-center {
   text-align: center !important;
 }

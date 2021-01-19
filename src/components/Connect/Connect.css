@@ -1,7 +1,8 @@
 .social {
   height: 70px;
   width: 70px;
-  margin-right: 75px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #rotator img {
